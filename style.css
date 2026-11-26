@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+       font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(32, 33, 36);
+
+   
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navbar ul li {
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(95, 99, 104);
+}
+
+.guide {
+    background-color: rgb(26, 115, 232);
+    padding: 27px;
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.modern {
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(48, 63, 159);
+    display: flex;
+}
+
+.building {
+    max-width: 55%;
+    justify-content: start;
+    padding: 10px 60px;
+}
+
+.build {
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(32, 33, 36);
+    display: flex;
+    margin-top: 50px;
+}
+
+.bui {
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Naskh Arabic", "Noto Sans Thai", "Noto Sans Hebrew", "Noto Sans Bengali", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    color: rgb(32, 33, 36);
+}
+.mother{
+    padding: 40px 400px;
+}
+
+.hero-img {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+}
+
+.web {
+    display: flex;
+    justify-content: space-between;
+    /* gap:  */
+
+}
+
+.web img {
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+}
+
+.webai {
+    max-width: 60%;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: #f5f6f7;
+    height: 606.426px;
+    width: 370.426px;
+    padding: 32px;
+    align-items: center;
+}
+
+.webai div{
+
+}
+.payment{
+    margin-top: 30px;
+}
+.read{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.learn {
+    border-radius: 100px;
+    border: 1px solid #1A73e8;
+    width: 171.937px;
+    height: 40.4844;
+    margin: 4px;
+    padding: 12px 40px;
+}
+
+.learn a {
+    text-decoration: none;
+}
+.explore{
+    background-color: rgb(245, 246, 247);
+    margin-top: 50px;
+    padding: 50px 450PX; 
+    height: 721px;
+
+}
+.exp{padding-bottom: 24px;
+    
+}
+.ex-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 32%;
+}
+.ex{
+    width: 70%;
+}
+.start{
+    border-radius: 100px ;
+    border: 1px solid blue;
+    text-decoration: none;
+     height: 45px;
+ width: 210px;
+ align-content: center; 
+ justify-self: right;
+}
+.start a{
+    padding: 12px 40px;
+    
+    text-decoration: none;
+}
+.htm img{
+    width: 40px;
+}
+.htm{
+    height: 434px;
+    width: 30%;
+      max-width: 60%;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 372.426px;
+    width: 330.426px;
+    padding: 32px;
+}
+.webimage{
+    justify-it: center;
+}
+.learning{
+    background-color: white;
+    max-width: 100%;
+}
+.learnt{
+    margin-top: 50px;
+    padding: 50px 450PX; 
+   
+}
+.learnweb p{
+width: 813px;
+margin-top: 40px;  
+margin-bottom: 40px; 
+}
+.stl {
+     border-radius: 100px ;
+     border: 1px solid blue;
+     height: 45px;
+     width: 210px;
+     align-content: center; 
+     justify-self: right; 
+      margin-bottom: 40px;
+    padding: 12px 40px;
+    min-width: 36px;
+}
+.stl a{
+    text-decoration: none; 
+}
+.fath{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fathe{
+background-color: rgb(245, 246, 247);
+border-radius: 24px;
+    height: 615.375px;
+	width: 394.664px;
+	padding: 32px;
+	max-width: 100%;
+    justify-content: space-between;
+
+    
+}
+.fathe img{
+    width: 330px;
+    height: 199px;
+}
+.development{
+    background-color: rgb(245, 246, 247);
+    display: flex;
+    height: 282px;
+}
+.development div img{
+    width: 270px;
+}
+.development div a{
+    text-decoration: none;
+
+}
+.dev{
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 12px 40x;
+    min-width: 36px;
+    width: 192px;
+    height: 46px;
+    justify-content: center;
+        text-align: center;
+
+}
